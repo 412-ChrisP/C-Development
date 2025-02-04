@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>main.cpp</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #b3ae60;}
+.s1 { color: #bcbec4;}
+.s2 { color: #6aab73;}
+.s3 { color: #cf8e6d;}
+.s4 { color: #bcbec4;}
+.s5 { color: #2aacb8;}
+.s6 { color: #7a7e85;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+main.cpp</font>
+</center></td></tr></table>
+<pre><span class="s0">#include </span><span class="s2">&lt;iostream&gt;</span>
+<span class="s0">#include </span><span class="s2">&lt;string&gt;</span>
+<span class="s0">#include </span><span class="s2">&lt;cctype&gt;</span>
+
+<span class="s3">using namespace </span><span class="s1">std</span><span class="s4">;</span>
+
+<span class="s3">bool </span><span class="s1">is_palindrome</span><span class="s4">(</span><span class="s3">const char </span><span class="s1">word</span><span class="s4">[])</span>
+<span class="s4">{</span>
+    <span class="s3">int </span><span class="s1">len </span><span class="s4">= </span><span class="s1">strlen</span><span class="s4">(</span><span class="s1">word</span><span class="s4">);</span>
+    <span class="s3">for </span><span class="s4">(</span><span class="s3">int </span><span class="s1">i </span><span class="s4">= </span><span class="s5">0</span><span class="s4">; </span><span class="s1">i </span><span class="s4">&lt; </span><span class="s1">len </span><span class="s4">/ </span><span class="s5">2</span><span class="s4">; </span><span class="s1">i</span><span class="s4">++)</span>
+    <span class="s4">{</span>
+        <span class="s3">if </span><span class="s4">(</span><span class="s1">tolower</span><span class="s4">(</span><span class="s1">word</span><span class="s4">[</span><span class="s1">i</span><span class="s4">]) != </span><span class="s1">tolower</span><span class="s4">(</span><span class="s1">word</span><span class="s4">[</span><span class="s1">len </span><span class="s4">- </span><span class="s1">i </span><span class="s4">- </span><span class="s5">1</span><span class="s4">]))</span>
+        <span class="s4">{</span>
+            <span class="s3">return false</span><span class="s4">;</span>
+        <span class="s4">}</span>
+    <span class="s4">}</span>
+    <span class="s3">return true</span><span class="s4">;</span>
+<span class="s4">}</span>
+
+
+<span class="s1">string reverse</span><span class="s4">(</span><span class="s1">string input</span><span class="s4">)</span>
+<span class="s4">{</span>
+    <span class="s3">for </span><span class="s4">(</span><span class="s3">char </span><span class="s4">&amp;</span><span class="s1">c </span><span class="s4">: </span><span class="s1">input</span><span class="s4">)</span>
+    <span class="s4">{</span>
+        <span class="s3">if </span><span class="s4">(</span><span class="s1">islower</span><span class="s4">(</span><span class="s1">c</span><span class="s4">))</span>
+        <span class="s4">{</span>
+            <span class="s1">c </span><span class="s4">= </span><span class="s1">toupper</span><span class="s4">(</span><span class="s1">c</span><span class="s4">);</span>
+        <span class="s4">}</span>
+        <span class="s3">else if </span><span class="s4">(</span><span class="s1">isupper</span><span class="s4">(</span><span class="s1">c</span><span class="s4">))</span>
+        <span class="s4">{</span>
+            <span class="s1">c </span><span class="s4">= </span><span class="s1">tolower</span><span class="s4">(</span><span class="s1">c</span><span class="s4">);</span>
+        <span class="s4">}</span>
+    <span class="s4">}</span>
+    <span class="s3">return </span><span class="s1">input</span><span class="s4">;</span>
+<span class="s4">}</span>
+
+<span class="s3">int </span><span class="s1">main</span><span class="s4">()</span>
+<span class="s4">{</span>
+    <span class="s3">char </span><span class="s1">word</span><span class="s4">[</span><span class="s5">100</span><span class="s4">];</span>
+    <span class="s1">cout </span><span class="s4">&lt;&lt; </span><span class="s2">&quot;Please enter a word: &quot;</span><span class="s4">;</span>
+    <span class="s1">cin </span><span class="s4">&gt;&gt; </span><span class="s1">word</span><span class="s4">;</span>
+
+    <span class="s3">if </span><span class="s4">(</span><span class="s1">is_palindrome</span><span class="s4">(</span><span class="s1">word</span><span class="s4">))</span>
+    <span class="s4">{</span>
+        <span class="s1">cout </span><span class="s4">&lt;&lt; </span><span class="s2">&quot;This is a palindrome.</span><span class="s3">\n</span><span class="s2">&quot; </span><span class="s4">&lt;&lt; </span><span class="s1">endl</span><span class="s4">;</span>
+    <span class="s4">}</span>
+    <span class="s3">else</span>
+    <span class="s4">{</span>
+        <span class="s1">cout </span><span class="s4">&lt;&lt; </span><span class="s2">&quot;This is not a palindrome.</span><span class="s3">\n</span><span class="s2">&quot; </span><span class="s4">&lt;&lt; </span><span class="s1">endl</span><span class="s4">;</span>
+    <span class="s4">}</span>
+
+    <span class="s1">cin</span><span class="s4">.</span><span class="s1">ignore</span><span class="s4">();</span>
+
+    <span class="s1">string sentence</span><span class="s4">;</span>
+    <span class="s1">cout </span><span class="s4">&lt;&lt; </span><span class="s2">&quot;Please enter a string below:&quot; </span><span class="s4">&lt;&lt; </span><span class="s1">endl</span><span class="s4">;</span>
+    <span class="s1">getline</span><span class="s4">(</span><span class="s1">cin</span><span class="s4">, </span><span class="s1">sentence</span><span class="s4">);</span>
+
+    <span class="s1">string modified </span><span class="s4">= </span><span class="s1">reverse</span><span class="s4">(</span><span class="s1">sentence</span><span class="s4">);</span>
+    <span class="s1">cout </span><span class="s4">&lt;&lt; </span><span class="s2">&quot;Your modified string:&quot; </span><span class="s4">&lt;&lt; </span><span class="s1">endl</span><span class="s4">;</span>
+    <span class="s1">cout </span><span class="s4">&lt;&lt; </span><span class="s1">modified </span><span class="s4">&lt;&lt; </span><span class="s1">endl</span><span class="s4">;</span>
+
+    <span class="s3">return </span><span class="s5">0</span><span class="s4">;</span>
+<span class="s4">}</span>
+<span class="s6">/* 
+Execution Code: 
+Please enter a word: Racecar 
+This is a palindrome. 
+ 
+Please enter a string below: 
+McGyver premiered in 1985 
+Your modified string: 
+mCgYVER PREMIERED IN 1985 
+ 
+ 
+ */</span></pre>
+</body>
+</html>

@@ -1,0 +1,3 @@
+C:/Users/thebe/CLionProjects/InLab1/cmake-build-debug/CMakeFiles/InLab1.dir
+C:/Users/thebe/CLionProjects/InLab1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/thebe/CLionProjects/InLab1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

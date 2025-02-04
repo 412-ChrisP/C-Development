@@ -1,0 +1,5 @@
+# ninja log v5
+0	418	6886833571004197	CMakeFiles/Scores.dir/main.cpp.obj	cd0becaf873860ff
+368	482	6886866651953812	Scores.exe	6ccac78dfd7a1112
+4	185	6887019666467931	build.ninja	917148f244515b6b
+3	368	6886866650846778	CMakeFiles/Scores.dir/Scores.cpp.obj	eb8f93dfa2708dd5

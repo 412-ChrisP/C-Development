@@ -1,0 +1,6 @@
+# ninja log v5
+11	320	6918867430066622	build.ninja	30843728fc79b948
+3	467	6918323342665140	CMakeFiles/CoinFlip.dir/CoinFlip.cpp.obj	f3de8c961d539bb
+467	621	6918323344191059	CoinFlip.exe	ca3e4adccd30c09
+2	405	6919115752804767	CMakeFiles/CoinFlip.dir/CoinFlip.cpp.obj	f3de8c961d539bb
+405	552	6919115754240925	CoinFlip.exe	ca3e4adccd30c09

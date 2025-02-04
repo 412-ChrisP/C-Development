@@ -1,0 +1,5 @@
+# ninja log v5
+3	312	6956917305789360	CMakeFiles/InLab2.dir/main.cpp.obj	a869cd4b9dd0a5e6
+298	376	6957127030820054	InLab2.exe	5ead18e2da5c9667
+7	241	6959723942421221	build.ninja	d20f02ca57675b6d
+3	298	6957127030062080	CMakeFiles/InLab2.dir/InLab2.cpp.obj	1a4fe60d9f69168c

@@ -1,0 +1,6 @@
+# ninja log v5
+310	394	6861967552514306	Nothing.exe	642be2788da18489
+5	276	6868754423985366	CMakeFiles/Nothing.dir/Programs.cpp.obj	43a558404dd5e91a
+3	363	6868754107940705	CMakeFiles/Nothing.dir/TestExamPrograms.cpp.obj	b06ed6ad03d1726
+1	314	6912915115690667	CMakeFiles/Nothing.dir/TestExamPrograms.cpp.obj	86f738ce5dec0e6e
+8	389	6912915116448638	CMakeFiles/Nothing.dir/Programs.cpp.obj	47d15aaf74785d6a

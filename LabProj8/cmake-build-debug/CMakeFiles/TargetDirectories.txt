@@ -1,0 +1,3 @@
+C:/Users/thebe/CLionProjects/LabProj8/cmake-build-debug/CMakeFiles/LabProj8.dir
+C:/Users/thebe/CLionProjects/LabProj8/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/thebe/CLionProjects/LabProj8/cmake-build-debug/CMakeFiles/rebuild_cache.dir

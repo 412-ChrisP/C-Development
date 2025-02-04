@@ -1,0 +1,10 @@
+# ninja log v5
+3	172	6968421960474200	build.ninja	809d9c44b127f34f
+1	331	6968421964413664	CMakeFiles/ChatGPT.dir/main.cpp.obj	545e9d004d9faa43
+333	454	6968421965620431	ChatGPT.exe	bcdbdec687efaeec
+3	307	6968423471962638	CMakeFiles/ChatGPT.dir/main.cpp.obj	545e9d004d9faa43
+308	398	6968423472840293	ChatGPT.exe	bcdbdec687efaeec
+3	319	6968424483138863	CMakeFiles/ChatGPT.dir/main.cpp.obj	545e9d004d9faa43
+319	399	6968424483906808	ChatGPT.exe	bcdbdec687efaeec
+3	292	6968424900183735	CMakeFiles/ChatGPT.dir/main.cpp.obj	545e9d004d9faa43
+293	376	6968424900981601	ChatGPT.exe	bcdbdec687efaeec

@@ -1,0 +1,7 @@
+# ninja log v5
+5	337	6990790458963261	CMakeFiles/MyString2.dir/MyString2.cpp.obj	476d8fe4fb9d29e8
+0	340	6990790458988432	CMakeFiles/MyString2.dir/main.cpp.obj	626bcaca75d8437f
+340	443	6990790459994543	MyString2.exe	b093d0497bad70a0
+3	299	6990793949054648	CMakeFiles/MyString2.dir/main.cpp.obj	626bcaca75d8437f
+7	302	6990793949084811	CMakeFiles/MyString2.dir/MyString2.cpp.obj	476d8fe4fb9d29e8
+302	381	6990793949839753	MyString2.exe	b093d0497bad70a0

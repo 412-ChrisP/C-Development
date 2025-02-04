@@ -1,0 +1,3 @@
+C:/Users/thebe/CLionProjects/ChatGPT/cmake-build-debug/CMakeFiles/ChatGPT.dir
+C:/Users/thebe/CLionProjects/ChatGPT/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/thebe/CLionProjects/ChatGPT/cmake-build-debug/CMakeFiles/rebuild_cache.dir

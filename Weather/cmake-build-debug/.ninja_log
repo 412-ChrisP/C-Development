@@ -1,0 +1,4 @@
+# ninja log v5
+6	194	6904279738433655	build.ninja	c87654ecd5ad43b1
+3	367	6899933500479393	CMakeFiles/Weather.dir/Weather.cpp.obj	81dea8f00caeca7c
+367	458	6899933501357045	Weather.exe	194690917471de71

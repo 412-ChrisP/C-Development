@@ -1,0 +1,4 @@
+# ninja log v5
+4	168	6968381721329032	build.ninja	33b999f59150436c
+1	362	6904303159804400	CMakeFiles/Triangle.dir/Triangle.cpp.obj	bc217924b1a89c4d
+364	485	6904303161001200	Triangle.exe	ed436baefe3c3f7

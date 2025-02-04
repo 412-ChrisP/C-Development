@@ -1,0 +1,3 @@
+C:/Users/thebe/CLionProjects/EXAM2STUDY/cmake-build-debug/CMakeFiles/EXAM2STUDY.dir
+C:/Users/thebe/CLionProjects/EXAM2STUDY/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/thebe/CLionProjects/EXAM2STUDY/cmake-build-debug/CMakeFiles/rebuild_cache.dir

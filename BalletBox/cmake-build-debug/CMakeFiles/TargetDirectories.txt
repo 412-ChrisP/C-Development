@@ -1,0 +1,3 @@
+C:/Users/thebe/CLionProjects/BalletBox/cmake-build-debug/CMakeFiles/BalletBox.dir
+C:/Users/thebe/CLionProjects/BalletBox/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/thebe/CLionProjects/BalletBox/cmake-build-debug/CMakeFiles/rebuild_cache.dir
